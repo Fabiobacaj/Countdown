@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    height: 100vh;
+}
+body{
+   background-color: black;
+   color:white; 
+   font-family: Lato,sans-serif;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#countdown{
+    text-align: center;
+
+}
+#time{
+    display: flex;
+    justify-content: space-around;
+}
+
+#time > div{
+    display: flex;
+    flex-direction: column;
+}
+
+#time > div > span{
+    font-size: 3rem;
+}
